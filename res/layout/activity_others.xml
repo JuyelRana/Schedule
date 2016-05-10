@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+	  xmlns:tools="http://schemas.android.com/tools"
+
+	  android:layout_width="match_parent"
+
+	  android:layout_height="match_parent" >
+
+	 
+
+	  <!-- Header aligned to top -->
+
+	  <RelativeLayout
+
+	    android:id="@+id/header3"
+
+	    android:layout_width="match_parent"
+
+	    android:layout_height="wrap_content"
+
+	    android:layout_alignParentTop="true"
+
+	    android:background="#20B2AA"
+
+	    android:gravity="center" >
+
+	 
+
+	    <TextView
+
+	      android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="অন্যান্য জেলাসমূহ  "
+            android:textSize="30sp" />
+
+	  </RelativeLayout>
+
+	 
+
+	  <!-- Footer aligned to bottom -->
+
+	  <RelativeLayout
+
+	    android:id="@+id/footer3"
+
+	    android:layout_width="match_parent"
+
+	    android:layout_height="wrap_content"
+
+	    android:layout_alignParentBottom="true"
+
+	    android:background="#20B2AA"
+
+	    android:gravity="center" >
+
+   <Button
+       android:id="@+id/btnback"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#20B2AA"
+       android:text="Back" />
+
+	  </RelativeLayout>
+
+	 <ScrollView
+
+	    android:id="@+id/scrollableContents"
+
+	    android:layout_width="fill_parent"
+
+	    android:layout_height="fill_parent"
+
+	    android:layout_above="@id/footer3"
+
+	    android:background="#ADD8E6"
+
+	    android:layout_below="@id/header3" >
+
+
+
+	    <LinearLayout
+
+	      android:layout_width="fill_parent"
+
+      android:layout_height="wrap_content"
+
+	      android:gravity="center_horizontal"
+
+	      android:orientation="vertical" >
+
+	    <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="-:ঢাকার সময়ের সঙ্গে যোগ করতে হবে:- "
+            android:textColor="#FF6A6A"
+            android:textSize="20sp" />
+
+                
+	 <ImageView
+	     android:id="@+id/imageView1"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:layout_alignParentLeft="true"
+	     android:layout_alignParentTop="true"
+	     android:src="@drawable/add" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="-:ঢাকার সময়ের সঙ্গে বিয়োগ করতে হবে:- "
+                    android:textColor="#FF6A6A"
+                    android:textSize="20sp" />
+
+                
+
+                 <ImageView
+                     android:id="@+id/imageView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                       android:layout_alignParentLeft="true"
+	     android:layout_alignParentTop="true"
+                     android:src="@drawable/deduct" />
+
+
+
+	 
+
+   </LinearLayout>
+
+	 
+
+  </ScrollView>
+
+
+	</RelativeLayout>

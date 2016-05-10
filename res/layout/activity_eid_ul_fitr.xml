@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+	  xmlns:tools="http://schemas.android.com/tools"
+
+	  android:layout_width="match_parent"
+
+	  android:layout_height="match_parent" >
+
+	 
+
+	  <!-- Header aligned to top -->
+
+	  <RelativeLayout
+
+	    android:id="@+id/header3"
+
+	    android:layout_width="match_parent"
+
+	    android:layout_height="wrap_content"
+
+	    android:layout_alignParentTop="true"
+
+	    android:background="#20B2AA"
+
+	    android:gravity="center" >
+
+	 
+
+	    <TextView
+
+	      android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="ঈদ উল ফিতর"
+            android:textSize="30sp" />
+
+	  </RelativeLayout>
+
+	 
+
+	  <!-- Footer aligned to bottom -->
+
+	  <RelativeLayout
+
+	    android:id="@+id/footer3"
+
+	    android:layout_width="match_parent"
+
+	    android:layout_height="wrap_content"
+
+	    android:layout_alignParentBottom="true"
+
+	    android:background="#20B2AA"
+
+	    android:gravity="center" >
+
+   <Button
+       android:id="@+id/btnback"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#20B2AA"
+       android:text="Back" />
+
+	  </RelativeLayout>
+
+	 <ScrollView
+	     android:id="@+id/scrollableContents"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_alignParentLeft="true"
+	  android:layout_above="@id/footer3"
+
+	    android:background="#ADD8E6"
+
+	    android:layout_below="@id/header3" >
+
+	     
+	     
+	 <LinearLayout
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:layout_above="@+id/footer3"
+	     android:layout_alignParentLeft="true"
+	     android:layout_alignParentRight="true"
+	     android:layout_alignTop="@+id/scrollableContents"
+	     android:orientation="vertical" >
+
+	     <ImageView
+	         android:id="@+id/imageView1"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_gravity="center_horizontal"
+	         android:src="@drawable/eidulfitr" />
+
+	     <TextView
+	         android:id="@+id/textView2"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         
+	         android:textSize="16sp"
+	         android:text="আমাদের টিমের পক্ষ থেকে সবাইকে ঈদ-উল-ফিতরের অগ্রিম শুভেচ্ছা “ ঈদ মোবারক”। " />
+	     <TextView
+	         android:id="@+id/textView3"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="@string/Eid_ul_fitr" />
+	     <TextView
+	         android:id="@+id/textView4"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:textSize="20sp"
+	         android:gravity="center_horizontal"
+	         android:text="আনন্দময় হোক সকলের ঈদ উল ফিতর।    ___ কসাই_জোন©।" />
+
+	 </LinearLayout>
+	    
+	     
+	     
+	 </ScrollView>
+
+	 
+
+	</RelativeLayout>

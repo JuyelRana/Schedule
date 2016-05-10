@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+	  xmlns:tools="http://schemas.android.com/tools"
+
+	  android:layout_width="match_parent"
+
+	  android:layout_height="match_parent" >
+
+	 
+
+	  <!-- Header aligned to top -->
+
+	  
+
+	 
+
+	 
+
+	  <!-- Footer aligned to bottom -->
+
+	  <RelativeLayout
+
+	    android:id="@+id/footer3"
+
+	    android:layout_width="match_parent"
+
+	    android:layout_height="wrap_content"
+
+	    android:layout_alignParentBottom="true"
+
+	    android:background="#20B2AA"
+
+	    android:gravity="center" >
+
+   <Button
+       android:id="@+id/btnback"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#20B2AA"
+       android:text="Main Menu" />
+
+	  </RelativeLayout>
+
+	 
+	     
+	     
+	     
+
+  
+
+  <ListView
+      android:id="@+id/listView2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:background="@drawable/ramadan"
+      
+      android:layout_above="@id/footer3" >
+
+  </ListView>
+
+	</RelativeLayout>

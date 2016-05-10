@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kosaizone.schedule"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.kosaizone.schedule.SplashActivity"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kosaizone.schedule.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.kosaizone.schedule.Dhaka"
+            android:label="@string/title_activity_dhaka" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            
+            android:name="com.kosaizone.schedule.Chittagong"
+            android:label="@string/title_activity_chittagong" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name="com.kosaizone.schedule.Rajshahi"
+            android:label="@string/title_activity_rajshahi" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name="com.kosaizone.schedule.Khulna"
+            android:label="@string/title_activity_khulna" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name="com.kosaizone.schedule.Sylhet"
+            android:label="@string/title_activity_sylhet" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name="com.kosaizone.schedule.Barisal"
+            android:label="@string/title_activity_barisal" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name="com.kosaizone.schedule.Others"
+            android:label="@string/title_activity_others" >
+        </activity>
+        <activity
+            android:name="com.kosaizone.schedule.Fozilot"
+            android:label="@string/title_activity_fozilot" >
+        </activity>
+        <activity
+            android:name="com.kosaizone.schedule.Nyot"
+            android:label="@string/title_activity_nyot" >
+        </activity>
+        <activity
+            android:name="com.kosaizone.schedule.Tarabih"
+            android:label="@string/title_activity_tarabih" >
+        </activity>
+        <activity
+            android:name="com.kosaizone.schedule.RojaVongerKaron"
+            android:label="@string/title_activity_roja_vonger_karon" >
+        </activity>
+        <activity
+            android:name="com.kosaizone.schedule.ShabEkadar"
+            android:label="@string/title_activity_shab_ekadar" >
+        </activity>
+        <activity
+            android:name="com.kosaizone.schedule.Rangpur"
+            android:label="@string/title_activity_rangpur" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name="com.kosaizone.schedule.Developer"
+            android:label="@string/title_activity_developer" >
+        </activity>
+        <activity
+            android:name="com.kosaizone.schedule.Patuakhali"
+            android:label="@string/title_activity_patuakhali" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name="com.kosaizone.schedule.EidUlFitr"
+            android:label="@string/title_activity_eid_ul_fitr" >
+        </activity>
+        <activity
+            android:name="com.kosaizone.schedule.Bibidh"
+            android:label="@string/title_activity_bibidh" >
+        </activity>
+    </application>
+
+</manifest>
